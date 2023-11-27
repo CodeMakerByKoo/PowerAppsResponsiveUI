@@ -43,47 +43,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.primaryColor"
+                  "fullyQualifiedName": "App.secondaryColorText"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.primaryColor",
+                  "fullyQualifiedName": "App.secondaryColorText",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "primaryColor",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.primaryColorText"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.primaryColorText",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "primaryColorText",
+                "member": "secondaryColorText",
                 "module": "App",
                 "type": "App"
               }
@@ -133,17 +103,47 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.secondaryColorText"
+                  "fullyQualifiedName": "App.primaryColorText"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.secondaryColorText",
+                  "fullyQualifiedName": "App.primaryColorText",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "secondaryColorText",
+                "member": "primaryColorText",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.primaryColor"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.primaryColor",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "primaryColor",
                 "module": "App",
                 "type": "App"
               }
