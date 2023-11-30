@@ -2,16 +2,40 @@ App As appinfo:
     BackEnabled: =true
     OnStart: |
         =// Set colors
-        Set(primaryColor,RGBA(45,85,251,1));
-        Set(primaryColorText,"RGBA(45,85,251,1)");
-        Set(secondaryColor,RGBA(40,37,37,1));
-        Set(secondaryColorText,"RGBA(40,37,37,1)");
-        
+        Set(
+            primaryColor,
+            RGBA(
+                45,
+                85,
+                251,
+                1
+            )
+        );
+        Set(
+            primaryColorText,
+            "RGBA(45,85,251,1)"
+        );
+        Set(
+            secondaryColor,
+            RGBA(
+                40,
+                37,
+                37,
+                1
+            )
+        );
+        Set(
+            secondaryColorText,
+            "RGBA(40,37,37,1)"
+        );
         // Set Icons
-        ClearCollect(customIcons,
-        {IconName:"RightIcon",
-        IconData:"<svg xmlns=‘http://www.w3.org/2000/svg’ width=‘16’ height=‘16’ fill=‘currentColor’ class=‘bi bi-arrow-right-short’ viewBox=‘0 0 16 16’><path fill-rule=‘evenodd’ d=‘M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8’/></svg>"
-        });
+        ClearCollect(
+            customIcons,
+            {
+                IconName: "RightIcon",
+                IconData: "<svg xmlns=‘http://www.w3.org/2000/svg’ width=‘16’ height=‘16’ fill=‘currentColor’ class=‘bi bi-arrow-right-short’ viewBox=‘0 0 16 16’><path fill-rule=‘evenodd’ d=‘M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 01-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8’/></svg>"
+            }
+        );
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
