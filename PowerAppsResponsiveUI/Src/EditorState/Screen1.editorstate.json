@@ -17,7 +17,14 @@
         "Y",
         "Width",
         "Height",
-        "Fill",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Fill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "DisabledFill",
         "PressedFill",
         "HoverFill",
@@ -50,6 +57,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image2",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -223,6 +231,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Screen1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [

@@ -4,12 +4,12 @@
   "ControlUniqueIds": {
     "App": 1,
     "Host": 3,
-    "Image2": 6,
+    "Image2": 5,
     "Screen1": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/28/2023 14:45:57",
+  "HeaderLastSavedDateTimeUTC": "11/30/2023 15:40:10",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -46,11 +46,12 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0567569,
+    "AnalysisLoadTime": 0.0600015,
     "ControlCount": {
+      "image": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 5.5784358
+    "DeserializationLoadTime": 3.4183468
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
